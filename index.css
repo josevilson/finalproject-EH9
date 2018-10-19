@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/mobile.jpg');
+    background-size: cover;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+
+}
+section>div>img{
+    display: flex;
+    border-radius: 50%;
+    margin: 0;
+    justify-content: center;
+    padding: 5vh 10vh 10vh 10vh;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+input{
+    background-color: transparent;
+    margin: 1vh;
+    border: 0;
+    color: white;
+}
+button{
+    background-color: gray;
+    border-radius: 50%;
+    border: 0;
+    margin: 5vh;
+    padding: 2vw;
+}
+button>img{
+    display: flex;
+    align-items: center;
+}
+section>div{
+    display: flex;
+    justify-content: center;
+
+}
+section div:last-child{
+    padding: 0 5vh 5vh 5vh;
+    justify-content: space-evenly;
+}
+p{
+    display: flex;
+    margin: 0;
+    color: gray;
+   
+}
+form input:first-child{
+    background-image: url("img/user.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+
+}
+form input:nth-child(2){
+    background-image: url("img/locked.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder { 
+    color: white;
+  }
+  :-ms-input-placeholder { 
+    color: white;
+  }
+  ::-moz-placeholder { 
+    color: white;
+    opacity: 1;
+  }
+  :-moz-placeholder {
+    color: white;
+    opacity: 1;
+  }
