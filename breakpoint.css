@@ -1,0 +1,43 @@
+@media screen and (min-width:700px){
+    body{
+        justify-content: flex-start;
+        align-items: flex-end;
+        background-image: url('img/desktop.jpg');
+    }
+    #maior{
+        display: flex;
+        align-items: flex-end;
+    }
+    header{
+        justify-content: space-between;
+    }
+    header>nav{
+        width: 35vw;
+    }
+    header>nav>a{
+        font-size: 13pt;
+    }
+    header>div>img{
+        padding: 1vw 1vw 3vw 3vw;
+    }
+    header>div>p{
+        padding: 0 0 3vw 0;
+        font-size: 18pt;
+    }
+    section{
+        margin: 0 5vw;
+    }
+    section>div>img{
+        width: 20vw;
+        height: 20vw;
+        padding: 5vh 10vh 5vh 10vh;
+    }
+    section div:last-child{
+        padding: 0 5vh 5vh 5vh;
+        justify-content: space-evenly;
+    }
+    #menor{
+        display: none;
+    }
+}
+
