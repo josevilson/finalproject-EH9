@@ -2,13 +2,35 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-image: url('img/mobile.jpg');
     background-size: cover;
+}
+header{
+    display:flex;
+    width: 100vw;
+}
+header>div{
+    display: flex;
+    align-items: flex-end;
+
+}
+header>div>img{
+    display: flex;
+    padding: 3vw 1vw 3vw 3vw;
+}
+header>div>p{
+    display: flex;
+    font-size: bolder;
+    color: white;
+    width: 30vw;
+    padding: 0 0 2vw 0;
+    font-family: 'Happy Monkey', cursive;
+    font-size: 13pt;
 }
 section{
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
-
 }
 section>div>img{
     display: flex;
@@ -29,7 +51,7 @@ input{
     color: white;
 }
 button{
-    background-color: gray;
+    background-color: rgb(245, 114, 164);
     border-radius: 50%;
     border: 0;
     margin: 5vh;
@@ -51,7 +73,7 @@ section div:last-child{
 p{
     display: flex;
     margin: 0;
-    color: gray;
+    color: rgb(245, 114, 164);
    
 }
 form input:first-child{
