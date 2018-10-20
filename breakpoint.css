@@ -13,16 +13,21 @@
     }
     header>nav{
         width: 35vw;
+        padding: 0 0 1vw 0;
     }
     header>nav>a{
         font-size: 13pt;
     }
     header>div>img{
-        padding: 1vw 1vw 3vw 3vw;
+        padding: 1vw 1vw 1vw 3vw;
     }
     header>div>p{
-        padding: 0 0 3vw 0;
+        padding: 0 0 1vw 0;
         font-size: 18pt;
+    }
+    button{
+        margin: 3vh;
+        padding: 1vw;
     }
     section{
         margin: 0 5vw;
