@@ -9,11 +9,26 @@ body{
 header{
     display:flex;
     width: 100vw;
+    justify-content: space-between;
 }
 header>div{
     display: flex;
     align-items: flex-end;
-
+}
+header>nav{
+    display:flex;
+    text-decoration: none;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 0 0 3vw 0;
+    width: 70vw;
+    
+}
+header>nav>a{
+    color: white;
+    font-family: 'Happy Monkey', cursive;
+    font-size: 9pt;
+    cursor: pointer;
 }
 header>div>img{
     display: flex;
