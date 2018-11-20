@@ -1,4 +1,4 @@
-@media screen and (min-width:700px){
+@media screen and (min-width:750px){
     body{
         justify-content: flex-start;
         align-items: flex-end;
@@ -26,19 +26,20 @@
         font-size: 18pt;
     }
     button{
-        margin: 3vh;
+        margin: 5vh;
         padding: 1vw;
     }
     section{
         margin: 0 5vw;
+        height: 80vh;
     }
     section>div>img{
         width: 20vw;
         height: 20vw;
-        padding: 5vh 10vh 5vh 10vh;
+        padding: 10vh;
     }
     section div:last-child{
-        padding: 0 5vh 5vh 5vh;
+        padding: 0 9vh 5vh 9vh;
         justify-content: space-evenly;
     }
     #menor{
@@ -46,3 +47,20 @@
     }
 }
 
+@media screen and (min-width:900px){
+    section>div>img{
+        padding: 5vh 10vh;
+    }
+    button{
+        margin: 7vh;
+    }
+
+}
+@media screen and (min-width:1005px){
+}
+section>div>img{
+    padding: 3vh 10vh;
+}
+button{
+    margin: 5vh;
+}
